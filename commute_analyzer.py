@@ -7,3 +7,4 @@ for time in weekly_commute:
     day_num +=1
 print(f"Total Travel this Week : {total_hours}")
 print(f"Average Travel this Week : {avg_hours}")
+print(f"Longest Day : {max(weekly_commute)} hours")

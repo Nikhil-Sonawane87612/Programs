@@ -1,0 +1,11 @@
+{
+    "username": "Nikhil_Sonawane",
+    "role": "BCA Developer",
+    "skills": [
+        "Python",
+        "Git",
+        "File I/O",
+        "JSON Handling"
+    ],
+    "active_streak_days": 5
+}

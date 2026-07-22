@@ -14,6 +14,18 @@ class Student:
         else:
             return "Failed"
     
-s1=Student("Nikhil", "BCA", 75)
-s1.display_info()
-print(s1.has_passed())
+class GraduateStudent(Student):
+    def __init__(self, name, course, score, project_title):
+        super().__init__(name,course,score)
+        self.project_title=project_title
+    
+    def display_project(self):
+        print(f"Project Title : {self.project_title}")
+
+#s1=Student("Nikhil", "BCA", 75)
+#s1.display_info()
+#print(s1.has_passed())
+
+g1 = GraduateStudent("Nikhil Sonawane", "BCA", 88, "AI-Powered CLI Logger")
+g1.display_info()
+g1.display_project()

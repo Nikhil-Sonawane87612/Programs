@@ -1,0 +1,10 @@
+{
+    "appname": "Jarvis CLI",
+    "theme": "Dark",
+    "max_threads": 4,
+    "features": [
+        "AutoSync",
+        "Error Logging",
+        "Git Sync"
+    ]
+}
